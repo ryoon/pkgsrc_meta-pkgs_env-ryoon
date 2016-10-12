@@ -14,6 +14,7 @@ DEPENDS+=	screen-[0-9]*:../../misc/screen
 DEPENDS+=	mlterm-[0-9]*:../../x11/mlterm
 DEPENDS+=	ja-shinonome-[0-9]*:../../fonts/ja-shinonome
 DEPENDS+=	ipaexfont-[0-9]*:../../fonts/ipaexfont
+DEPENDS+=	ipafont-[0-9]*:../../fonts/ipafont
 DEPENDS+=	droid-ttf-[0-9]*:../../fonts/droid-ttf
 DEPENDS+=	jwm-[0-9]*:../../wm/jwm
 DEPENDS+=	firefox-[0-9]*:../../www/firefox
@@ -40,6 +41,7 @@ DEPENDS+=	ispell-[0-9]*:../../textproc/ispell
 DEPENDS+=	qemu-[0-9]*:../../emulators/qemu
 DEPENDS+=	gxemul-[0-9]*:../../emulators/gxemul
 DEPENDS+=	cross-arm-none-eabi-gcc-[0-9]*:../../cross/arm-none-eabi-gcc5
+DEPENDS+=	lv-[0-9]*:../../misc/lv
 
 META_PACKAGE=	yes
 
