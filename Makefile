@@ -40,8 +40,10 @@ DEPENDS+=	wxGTK28-contrib-[0-9]*:../../x11/wxGTK28-contrib
 DEPENDS+=	ispell-[0-9]*:../../textproc/ispell
 DEPENDS+=	qemu-[0-9]*:../../emulators/qemu
 DEPENDS+=	gxemul-[0-9]*:../../emulators/gxemul
-DEPENDS+=	cross-arm-none-eabi-gcc-[0-9]*:../../cross/arm-none-eabi-gcc5
+DEPENDS+=	cross-arm-none-eabi-gcc-[0-9]*:../../cross/arm-none-eabi-gcc
 DEPENDS+=	lv-[0-9]*:../../misc/lv
+DEPENDS+=	intel-microcode-netbsd-[0-9]*:../../sysutils/intel-microcode-netbsd
+DEPENDS+=	msmtp-[0-9]*:../../mail/msmtp
 
 META_PACKAGE=	yes
 
