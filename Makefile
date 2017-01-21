@@ -18,6 +18,7 @@ DEPENDS+=	ipafont-[0-9]*:../../fonts/ipafont
 DEPENDS+=	droid-ttf-[0-9]*:../../fonts/droid-ttf
 DEPENDS+=	jwm-[0-9]*:../../wm/jwm
 DEPENDS+=	firefox-[0-9]*:../../www/firefox
+DEPENDS+=	alsa-plugins-pulse-[0-9]*:../../audio/alsa-plugins-pulse
 DEPENDS+=	stunnel-[0-9]*:../../security/stunnel
 DEPENDS+=	mew-[0-9]*:../../mail/mew
 DEPENDS+=	emacs-w3m-[0-9]*:../../www/emacs-w3m-snapshot
