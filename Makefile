@@ -16,6 +16,7 @@ DEPENDS+=	ja-shinonome-[0-9]*:../../fonts/ja-shinonome
 DEPENDS+=	ipaexfont-[0-9]*:../../fonts/ipaexfont
 DEPENDS+=	ipafont-[0-9]*:../../fonts/ipafont
 DEPENDS+=	droid-ttf-[0-9]*:../../fonts/droid-ttf
+DEPENDS+=	noto-ttf-[0-9]*:../../fonts/noto-ttf
 DEPENDS+=	jwm-[0-9]*:../../wm/jwm
 DEPENDS+=	firefox-[0-9]*:../../www/firefox
 DEPENDS+=	alsa-plugins-pulse-[0-9]*:../../audio/alsa-plugins-pulse
