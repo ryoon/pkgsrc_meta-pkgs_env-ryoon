@@ -31,7 +31,6 @@ DEPENDS+=	git-docs-[0-9]*:../../devel/git-docs
 DEPENDS+=	mercurial-[0-9]*:../../devel/mercurial
 DEPENDS+=	subversion-base-[0-9]*:../../devel/subversion-base
 DEPENDS+=	gnupg-[0-9]*:../../security/gnupg
-DEPENDS+=	gnupg2-[0-9]*:../../security/gnupg2
 DEPENDS+=	xpdf-japanese-[0-9]*:../../print/xpdf-japanese
 DEPENDS+=	pkg_developer-[0-9]*:../../meta-pkgs/pkg_developer
 DEPENDS+=	libreoffice-[0-9]*:../../misc/libreoffice
