@@ -37,7 +37,6 @@ DEPENDS+=	libreoffice-[0-9]*:../../misc/libreoffice
 DEPENDS+=	netbsd-www-[0-9]*:../../meta-pkgs/netbsd-www
 DEPENDS+=	mplayer-[0-9]*:../../multimedia/mplayer
 DEPENDS+=	qt4-tools-[0-9]*:../../x11/qt4-tools
-DEPENDS+=	wxGTK28-contrib-[0-9]*:../../x11/wxGTK28-contrib
 DEPENDS+=	ispell-[0-9]*:../../textproc/ispell
 DEPENDS+=	qemu-[0-9]*:../../emulators/qemu
 DEPENDS+=	gxemul-[0-9]*:../../emulators/gxemul
