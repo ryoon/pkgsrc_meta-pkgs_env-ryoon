@@ -30,7 +30,6 @@ DEPENDS+=	git-base-[0-9]*:../../devel/git-base
 DEPENDS+=	git-docs-[0-9]*:../../devel/git-docs
 DEPENDS+=	mercurial-[0-9]*:../../devel/mercurial
 DEPENDS+=	subversion-base-[0-9]*:../../devel/subversion-base
-DEPENDS+=	gnupg-[0-9]*:../../security/gnupg
 DEPENDS+=	xpdf-japanese-[0-9]*:../../print/xpdf-japanese
 DEPENDS+=	pkg_developer-[0-9]*:../../meta-pkgs/pkg_developer
 DEPENDS+=	libreoffice-[0-9]*:../../misc/libreoffice
@@ -42,6 +41,13 @@ DEPENDS+=	gxemul-[0-9]*:../../emulators/gxemul
 DEPENDS+=	cross-arm-none-eabi-gcc-[0-9]*:../../cross/arm-none-eabi-gcc
 DEPENDS+=	lv-[0-9]*:../../misc/lv
 DEPENDS+=	msmtp-[0-9]*:../../mail/msmtp
+DEPENDS+=	xf86-video-wsfb-[0-9]*:../../x11/xf86-video-wsfb
+DEPENDS+=	xf86-input-mouse-[0-9]*:../../x11/xf86-input-mouse
+DEPENDS+=	xf86-input-keyboard-[0-9]*:../../x11/xf86-input-keyboard
+DEPENDS+=	xinit-[0-9]*:../../x11/xinit
+DEPENDS+=	xrdb-[0-9]*:../../x11/xrdb
+DEPENDS+=	xconsole-[0-9]*:../../x11/xconsole
+DEPENDS+=	modular-xorg-fonts-[0-9]*:../../meta-pkgs/modular-xorg-fonts
 
 META_PACKAGE=	yes
 
