@@ -48,6 +48,7 @@ DEPENDS+=	xinit-[0-9]*:../../x11/xinit
 DEPENDS+=	xrdb-[0-9]*:../../x11/xrdb
 DEPENDS+=	xconsole-[0-9]*:../../x11/xconsole
 DEPENDS+=	modular-xorg-fonts-[0-9]*:../../meta-pkgs/modular-xorg-fonts
+DEPENDS+=	gimp-[0-9]*:../../graphics/gimp
 
 META_PACKAGE=	yes
 
