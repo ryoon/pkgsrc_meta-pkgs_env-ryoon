@@ -36,9 +36,6 @@ DEPENDS+=	libreoffice-[0-9]*:../../misc/libreoffice
 DEPENDS+=	netbsd-www-[0-9]*:../../meta-pkgs/netbsd-www
 DEPENDS+=	mplayer-[0-9]*:../../multimedia/mplayer
 DEPENDS+=	ispell-[0-9]*:../../textproc/ispell
-DEPENDS+=	qemu-[0-9]*:../../emulators/qemu
-DEPENDS+=	gxemul-[0-9]*:../../emulators/gxemul
-DEPENDS+=	cross-arm-none-eabi-gcc-[0-9]*:../../cross/arm-none-eabi-gcc
 DEPENDS+=	lv-[0-9]*:../../misc/lv
 DEPENDS+=	msmtp-[0-9]*:../../mail/msmtp
 DEPENDS+=	xf86-video-wsfb-[0-9]*:../../x11/xf86-video-wsfb
@@ -49,6 +46,10 @@ DEPENDS+=	xrdb-[0-9]*:../../x11/xrdb
 DEPENDS+=	xconsole-[0-9]*:../../x11/xconsole
 DEPENDS+=	modular-xorg-fonts-[0-9]*:../../meta-pkgs/modular-xorg-fonts
 DEPENDS+=	gimp-[0-9]*:../../graphics/gimp
+DEPENDS+=	sourcecodepro-fonts-[0-9]*:../../fonts/sourcecodepro-fonts
+DEPENDS+=	qemu-[0-9]*:../../emulators/qemu
+DEPENDS+=	gxemul-[0-9]*:../../emulators/gxemul
+DEPENDS+=	cross-arm-none-eabi-gcc-[0-9]*:../../cross/arm-none-eabi-gcc
 
 META_PACKAGE=	yes
 
