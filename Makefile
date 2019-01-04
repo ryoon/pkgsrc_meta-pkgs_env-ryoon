@@ -32,6 +32,7 @@ DEPENDS+=	xconsole-[0-9]*:../../x11/xconsole
 DEPENDS+=	modular-xorg-fonts-[0-9]*:../../meta-pkgs/modular-xorg-fonts
 DEPENDS+=	firefox-[0-9]*:../../www/firefox
 DEPENDS+=	mew-[0-9]*:../../mail/mew
+DEPENDS+=	hyperestraier-[0-9]*:../../textproc/hyperestraier
 DEPENDS+=	emacs-w3m-[0-9]*:../../www/emacs-w3m-snapshot
 DEPENDS+=	skk-[0-9]*:../../inputmethod/skk
 DEPENDS+=	multiskkserv-[0-9]*:../../inputmethod/multiskkserv
@@ -43,7 +44,7 @@ DEPENDS+=	mupdf-[0-9]*:../../print/mupdf
 DEPENDS+=	pkg_developer-[0-9]*:../../meta-pkgs/pkg_developer
 DEPENDS+=	libreoffice-[0-9]*:../../misc/libreoffice
 DEPENDS+=	netbsd-www-[0-9]*:../../meta-pkgs/netbsd-www
-DEPENDS+=	mplayer-[0-9]*:../../multimedia/mplayer
+DEPENDS+=	mpv-[0-9]*:../../multimedia/mpv
 DEPENDS+=	ispell-[0-9]*:../../textproc/ispell
 DEPENDS+=	lv-[0-9]*:../../misc/lv
 DEPENDS+=	msmtp-[0-9]*:../../mail/msmtp
@@ -56,6 +57,7 @@ DEPENDS+=	dvipdfmx-[0-9]*:../../print/dvipdfmx
 DEPENDS+=	tex-pbibtex-base-[0-9]*:../../print/tex-pbibtex-base
 DEPENDS+=	tex-jsclasses-[0-9]*:../../print/tex-jsclasses
 DEPENDS+=	tex-preprint-[0-9]*:../../print/tex-preprint
+DEPENDS+=	modular-xorg-apps-[0-9]*:../../meta-pkgs/modular-xorg-apps
 
 META_PACKAGE=	yes
 
