@@ -58,6 +58,9 @@ DEPENDS+=	tex-pbibtex-base-[0-9]*:../../print/tex-pbibtex-base
 DEPENDS+=	tex-jsclasses-[0-9]*:../../print/tex-jsclasses
 DEPENDS+=	tex-preprint-[0-9]*:../../print/tex-preprint
 DEPENDS+=	modular-xorg-apps-[0-9]*:../../meta-pkgs/modular-xorg-apps
+DEPENDS+=	keepassxc-[0-9]*:../../security/keepassxc
+DEPENDS+=	poppler-utils-[0-9]*:../../print/poppler-utils
+DEPENDS+=	intel-vaapi-driver-[0-9]*:../../multimedia/intel-vaapi-driver
 
 META_PACKAGE=	yes
 
