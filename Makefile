@@ -11,7 +11,6 @@ COMMENT=	Daily use packages for ryoon
 DEPENDS+=	zsh-[0-9]*:../../shells/zsh
 DEPENDS+=	sudo-[0-9]*:../../security/sudo
 DEPENDS+=	screen-[0-9]*:../../misc/screen
-DEPENDS+=	stunnel-[0-9]*:../../security/stunnel
 DEPENDS+=	MesaLib-[0-9]*:../../graphics/MesaLib18
 #DEPENDS+=	intel-microcode-netbsd-[0-9]*:../../sysutils/intel-microcode-netbsd
 DEPENDS+=	mlterm-[0-9]*:../../x11/mlterm
@@ -61,6 +60,7 @@ DEPENDS+=	modular-xorg-apps-[0-9]*:../../meta-pkgs/modular-xorg-apps
 DEPENDS+=	keepassxc-[0-9]*:../../security/keepassxc
 DEPENDS+=	poppler-utils-[0-9]*:../../print/poppler-utils
 DEPENDS+=	intel-vaapi-driver-[0-9]*:../../multimedia/intel-vaapi-driver
+DEPENDS+=	go-hugo-[0-9]*:../../www/hugo
 
 META_PACKAGE=	yes
 
