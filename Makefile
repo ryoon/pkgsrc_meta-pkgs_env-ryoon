@@ -30,6 +30,7 @@ DEPENDS+=	xrdb-[0-9]*:../../x11/xrdb
 DEPENDS+=	xconsole-[0-9]*:../../x11/xconsole
 DEPENDS+=	modular-xorg-fonts-[0-9]*:../../meta-pkgs/modular-xorg-fonts
 DEPENDS+=	firefox-[0-9]*:../../www/firefox
+DEPENDS+=	firefox-l10n-[0-9]*:../../www/firefox-l10n
 DEPENDS+=	isync-[0-9]*:../../mail/isync
 DEPENDS+=	notmuch-[0-9]*:../../mail/notmuch
 DEPENDS+=	w3m-[0-9]*:../../www/w3m
@@ -61,6 +62,7 @@ DEPENDS+=	keepassxc-[0-9]*:../../security/keepassxc
 DEPENDS+=	poppler-utils-[0-9]*:../../print/poppler-utils
 DEPENDS+=	intel-vaapi-driver-[0-9]*:../../multimedia/intel-vaapi-driver
 DEPENDS+=	go-hugo-[0-9]*:../../www/hugo
+DEPENDS+=	apg-[0-9]*:../../security/apg
 
 META_PACKAGE=	yes
 
