@@ -63,6 +63,7 @@ DEPENDS+=	poppler-utils-[0-9]*:../../print/poppler-utils
 DEPENDS+=	intel-vaapi-driver-[0-9]*:../../multimedia/intel-vaapi-driver
 DEPENDS+=	go-hugo-[0-9]*:../../www/hugo
 DEPENDS+=	apg-[0-9]*:../../security/apg
+DEPENDS+=	mplayer-[0-9]*:../../multimedia/mplayer
 
 META_PACKAGE=	yes
 
