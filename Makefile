@@ -33,6 +33,7 @@ DEPENDS+=	firefox-[0-9]*:../../www/firefox
 DEPENDS+=	firefox-l10n-[0-9]*:../../www/firefox-l10n
 DEPENDS+=	isync-[0-9]*:../../mail/isync
 DEPENDS+=	notmuch-[0-9]*:../../mail/notmuch
+DEPENDS+=	howm-[0-9]*:../../misc/howm
 DEPENDS+=	w3m-[0-9]*:../../www/w3m
 DEPENDS+=	skk-[0-9]*:../../inputmethod/skk
 DEPENDS+=	multiskkserv-[0-9]*:../../inputmethod/multiskkserv
