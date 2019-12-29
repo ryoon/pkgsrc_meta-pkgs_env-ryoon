@@ -65,6 +65,7 @@ DEPENDS+=	intel-vaapi-driver-[0-9]*:../../multimedia/intel-vaapi-driver
 DEPENDS+=	apg-[0-9]*:../../security/apg
 DEPENDS+=	mplayer-[0-9]*:../../multimedia/mplayer
 DEPENDS+=	mozilla-rootcerts-openssl-[0-9]*:../../security/mozilla-rootcerts-openssl
+DEPENDS+=	2fa-[0-9]*:../../security/2fa
 
 META_PACKAGE=	yes
 
