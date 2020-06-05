@@ -64,6 +64,8 @@ DEPENDS+=	apg-[0-9]*:../../security/apg
 DEPENDS+=	mplayer-[0-9]*:../../multimedia/mplayer
 DEPENDS+=	mozilla-rootcerts-openssl-[0-9]*:../../security/mozilla-rootcerts-openssl
 DEPENDS+=	2fa-[0-9]*:../../security/2fa
+DEPENDS+=	cups-base-[0-9]*:../../print/cups-base
+DEPENDS+=	grep-[0-9]*:../../textproc/grep
 
 META_PACKAGE=	yes
 
