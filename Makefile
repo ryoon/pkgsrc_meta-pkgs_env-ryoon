@@ -51,7 +51,6 @@ DEPENDS+=	msmtp-[0-9]*:../../mail/msmtp
 DEPENDS+=	gimp-[0-9]*:../../graphics/gimp
 DEPENDS+=	qemu-[0-9]*:../../emulators/qemu
 DEPENDS+=	gxemul-[0-9]*:../../emulators/gxemul
-DEPENDS+=	cross-arm-none-eabi-gcc-[0-9]*:../../cross/arm-none-eabi-gcc
 DEPENDS+=	tex-platex-[0-9]*:../../print/tex-platex
 DEPENDS+=	dvipdfmx-[0-9]*:../../print/dvipdfmx
 DEPENDS+=	tex-pbibtex-base-[0-9]*:../../print/tex-pbibtex-base
@@ -67,6 +66,8 @@ DEPENDS+=	mozilla-rootcerts-openssl-[0-9]*:../../security/mozilla-rootcerts-open
 DEPENDS+=	2fa-[0-9]*:../../security/2fa
 DEPENDS+=	cups-base-[0-9]*:../../print/cups-base
 DEPENDS+=	grep-[0-9]*:../../textproc/grep
+DEPENDS+=	inkscape-[0-9]*:../../graphics/inkscape
+DEPENDS+=	feh-[0-9]*:../../graphics/feh
 
 META_PACKAGE=	yes
 
