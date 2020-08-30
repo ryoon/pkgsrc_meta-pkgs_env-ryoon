@@ -68,7 +68,6 @@ DEPENDS+=	cups-base-[0-9]*:../../print/cups-base
 DEPENDS+=	grep-[0-9]*:../../textproc/grep
 DEPENDS+=	inkscape-[0-9]*:../../graphics/inkscape
 DEPENDS+=	feh-[0-9]*:../../graphics/feh
-DEPENDS+=	import-package-[0-9]*:../../pkgtools/import-package
 
 META_PACKAGE=	yes
 
