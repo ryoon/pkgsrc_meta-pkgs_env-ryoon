@@ -68,7 +68,10 @@ DEPENDS+=	cups-base-[0-9]*:../../print/cups-base
 DEPENDS+=	grep-[0-9]*:../../textproc/grep
 DEPENDS+=	inkscape-[0-9]*:../../graphics/inkscape
 DEPENDS+=	feh-[0-9]*:../../graphics/feh
+DEPENDS+=	${PYPKGPREFIX}-notebook-[0-9]*:../../www/py-notebook
+DEPENDS+=	${PYPKGPREFIX}-matplotlib-[0-9]*:../../graphics/py-matplotlib
 
 META_PACKAGE=	yes
 
+.include "../../lang/python/pyversion.mk"
 .include "../../mk/bsd.pkg.mk"
