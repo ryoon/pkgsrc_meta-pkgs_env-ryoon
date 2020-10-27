@@ -27,7 +27,6 @@ DEPENDS+=	xinit-[0-9]*:../../x11/xinit
 DEPENDS+=	xrdb-[0-9]*:../../x11/xrdb
 DEPENDS+=	xconsole-[0-9]*:../../x11/xconsole
 DEPENDS+=	modular-xorg-fonts-[0-9]*:../../meta-pkgs/modular-xorg-fonts
-DEPENDS+=	firefox-[0-9]*:../../www/firefox
 DEPENDS+=	firefox-l10n-[0-9]*:../../www/firefox-l10n
 DEPENDS+=	isync-[0-9]*:../../mail/isync
 DEPENDS+=	cyrus-sasl-xoauth2-[0-9]*:../../security/cyrus-sasl-xoauth2
