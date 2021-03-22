@@ -11,8 +11,8 @@ COMMENT=	Daily use packages for ryoon
 DEPENDS+=	zsh-[0-9]*:../../shells/zsh
 DEPENDS+=	sudo-[0-9]*:../../security/sudo
 DEPENDS+=	screen-[0-9]*:../../misc/screen
-DEPENDS+=	fcitx5-skk-[0-9]*:../../inputmethod/fcitx5-skk
-DEPENDS+=	fcitx5-gtk-[0-9]*:../../inputmethod/fcitx5-gtk
+DEPENDS+=	uim-[0-9]*:../../inputmethod/uim
+DEPENDS+=	mlterm-[0-9]*:../../x11/mlterm
 DEPENDS+=	ipaexfont-[0-9]*:../../fonts/ipaexfont
 DEPENDS+=	ipafont-[0-9]*:../../fonts/ipafont
 DEPENDS+=	droid-ttf-[0-9]*:../../fonts/droid-ttf
@@ -69,7 +69,6 @@ DEPENDS+=	${PYPKGPREFIX}-notebook-[0-9]*:../../www/py-notebook
 DEPENDS+=	${PYPKGPREFIX}-matplotlib-[0-9]*:../../graphics/py-matplotlib
 DEPENDS+=	${PYPKGPREFIX}-sympy-[0-9]*:../../math/py-sympy
 DEPENDS+=	python27-[0-9]*:../../lang/python27
-DEPENDS+=	fcitx5-configtool-[0-9]*:../../inputmethod/fcitx5-configtool
 
 META_PACKAGE=	yes
 
