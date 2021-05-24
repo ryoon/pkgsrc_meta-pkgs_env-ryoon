@@ -68,7 +68,6 @@ DEPENDS+=	feh-[0-9]*:../../graphics/feh
 DEPENDS+=	${PYPKGPREFIX}-notebook-[0-9]*:../../www/py-notebook
 DEPENDS+=	${PYPKGPREFIX}-matplotlib-[0-9]*:../../graphics/py-matplotlib
 DEPENDS+=	${PYPKGPREFIX}-sympy-[0-9]*:../../math/py-sympy
-DEPENDS+=	python27-[0-9]*:../../lang/python27
 
 META_PACKAGE=	yes
 
