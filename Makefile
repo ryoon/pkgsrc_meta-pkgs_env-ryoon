@@ -21,7 +21,7 @@ DEPENDS+=	inconsolata-g-[0-9]*:../../fonts/inconsolata-g
 DEPENDS+=	sourcecodepro-fonts-[0-9]*:../../fonts/sourcecodepro-fonts
 DEPENDS+=	jwm-[0-9]*:../../wm/jwm
 DEPENDS+=	xf86-video-wsfb-[0-9]*:../../x11/xf86-video-wsfb
-DEPENDS+=	xf86-input-mouse-[0-9]*:../../x11/xf86-input-mouse
+DEPENDS+=	xf86-input-ws-[0-9]*:../../x11/xf86-input-ws
 DEPENDS+=	xf86-input-keyboard-[0-9]*:../../x11/xf86-input-keyboard
 DEPENDS+=	xinit-[0-9]*:../../x11/xinit
 DEPENDS+=	xrdb-[0-9]*:../../x11/xrdb
@@ -50,9 +50,8 @@ DEPENDS+=	msmtp-[0-9]*:../../mail/msmtp
 DEPENDS+=	gimp-[0-9]*:../../graphics/gimp
 DEPENDS+=	qemu-[0-9]*:../../emulators/qemu
 DEPENDS+=	gxemul-[0-9]*:../../emulators/gxemul
-DEPENDS+=	tex-platex-[0-9]*:../../print/tex-platex
+DEPENDS+=	tex-uplatex-[0-9]*:../../print/tex-uplatex
 DEPENDS+=	dvipdfmx-[0-9]*:../../print/dvipdfmx
-DEPENDS+=	tex-pbibtex-base-[0-9]*:../../print/tex-pbibtex-base
 DEPENDS+=	tex-jsclasses-[0-9]*:../../print/tex-jsclasses
 DEPENDS+=	tex-preprint-[0-9]*:../../print/tex-preprint
 DEPENDS+=	modular-xorg-apps-[0-9]*:../../meta-pkgs/modular-xorg-apps
@@ -69,6 +68,7 @@ DEPENDS+=	${PYPKGPREFIX}-notebook-[0-9]*:../../www/py-notebook
 DEPENDS+=	${PYPKGPREFIX}-matplotlib-[0-9]*:../../graphics/py-matplotlib
 DEPENDS+=	${PYPKGPREFIX}-sympy-[0-9]*:../../math/py-sympy
 DEPENDS+=	remmina-[0-9]*:../../net/remmina
+DEPENDS+=	gst-plugins1-pulse-[0-9]*:../../audio/gst-plugins1-pulse
 
 META_PACKAGE=	yes
 
