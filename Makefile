@@ -69,6 +69,7 @@ DEPENDS+=	${PYPKGPREFIX}-matplotlib-[0-9]*:../../graphics/py-matplotlib
 DEPENDS+=	${PYPKGPREFIX}-sympy-[0-9]*:../../math/py-sympy
 DEPENDS+=	remmina-[0-9]*:../../net/remmina
 DEPENDS+=	gst-plugins1-pulse-[0-9]*:../../audio/gst-plugins1-pulse
+DEPENDS+=	sane-airscan-[0-9]*:../../graphics/sane-airscan
 
 META_PACKAGE=	yes
 
