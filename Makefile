@@ -68,6 +68,7 @@ DEPENDS+=	remmina-[0-9]*:../../net/remmina
 DEPENDS+=	gst-plugins1-pulse-[0-9]*:../../audio/gst-plugins1-pulse
 DEPENDS+=	sane-airscan-[0-9]*:../../graphics/sane-airscan
 DEPENDS+=	mono-[0-9]*:../../lang/mono
+DEPENDS+=	alsa-plugins-pulse-[0-9]*:../../audio/alsa-plugins-pulse
 
 META_PACKAGE=	yes
 
