@@ -70,6 +70,7 @@ DEPENDS+=	sane-airscan-[0-9]*:../../graphics/sane-airscan
 DEPENDS+=	mono-[0-9]*:../../lang/mono
 DEPENDS+=	alsa-plugins-pulse-[0-9]*:../../audio/alsa-plugins-pulse
 DEPENDS+=	ugrep-[0-9]*:../../textproc/ugrep
+DEPENDS+=	${PYPKGPREFIX}-PyRTL-[0-9]*:../../cad/py-PyRTL
 
 META_PACKAGE=	yes
 
