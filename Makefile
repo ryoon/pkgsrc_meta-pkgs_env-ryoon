@@ -71,6 +71,8 @@ DEPENDS+=	mono-[0-9]*:../../lang/mono
 DEPENDS+=	alsa-plugins-pulse-[0-9]*:../../audio/alsa-plugins-pulse
 DEPENDS+=	ugrep-[0-9]*:../../textproc/ugrep
 DEPENDS+=	${PYPKGPREFIX}-PyRTL-[0-9]*:../../cad/py-PyRTL
+DEPENDS+=	${PYPKGPREFIX}-requests-[0-9]*:../../devel/py-requests
+DEPENDS+=	open-simh-[0-9]*:../../emulators/open-simh
 
 META_PACKAGE=	yes
 
