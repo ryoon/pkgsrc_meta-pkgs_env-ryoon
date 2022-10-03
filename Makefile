@@ -75,6 +75,8 @@ DEPENDS+=	ugrep-[0-9]*:../../textproc/ugrep
 DEPENDS+=	${PYPKGPREFIX}-PyRTL-[0-9]*:../../cad/py-PyRTL
 DEPENDS+=	${PYPKGPREFIX}-requests-[0-9]*:../../devel/py-requests
 DEPENDS+=	open-simh-[0-9]*:../../emulators/open-simh
+DEPENDS+=	${PYPKGPREFIX}-google-api-python-client-[0-9]*:../../www/py-google-api-python-client
+DEPENDS+=	${PYPKGPREFIX}-google-auth-oauthlib-[0-9]*:../../security/py-google-auth-oauthlib
 
 META_PACKAGE=	yes
 
