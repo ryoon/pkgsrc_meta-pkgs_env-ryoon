@@ -77,6 +77,12 @@ DEPENDS+=	${PYPKGPREFIX}-requests-[0-9]*:../../devel/py-requests
 DEPENDS+=	open-simh-[0-9]*:../../emulators/open-simh
 DEPENDS+=	${PYPKGPREFIX}-google-api-python-client-[0-9]*:../../www/py-google-api-python-client
 DEPENDS+=	${PYPKGPREFIX}-google-auth-oauthlib-[0-9]*:../../security/py-google-auth-oauthlib
+DEPENDS+=	tex-fontawesome-[0-9]*:../../fonts/tex-fontawesome
+DEPENDS+=	tex-fira-[0-9]*:../../fonts/tex-fira
+DEPENDS+=	tex-xcolor-[0-9]*:../../print/tex-xcolor
+DEPENDS+=	tex-xkeyval-[0-9]*:../../print/tex-xkeyval
+DEPENDS+=	tex-fontaxes-[0-9]*:../../print/tex-fontaxes
+DEPENDS+=	tex-anyfontsize-[0-9]*:../../print/tex-anyfontsize
 
 META_PACKAGE=	yes
 
