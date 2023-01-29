@@ -84,6 +84,7 @@ DEPENDS+=	tex-xcolor-[0-9]*:../../print/tex-xcolor
 DEPENDS+=	tex-xkeyval-[0-9]*:../../print/tex-xkeyval
 DEPENDS+=	tex-fontaxes-[0-9]*:../../print/tex-fontaxes
 DEPENDS+=	tex-anyfontsize-[0-9]*:../../print/tex-anyfontsize
+DEPENDS+=	ocaml-[0-9]*:../../lang/ocaml
 
 META_PACKAGE=	yes
 
