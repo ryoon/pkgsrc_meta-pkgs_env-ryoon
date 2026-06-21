@@ -12,7 +12,6 @@ DEPENDS+=	zsh-[0-9]*:../../shells/zsh
 DEPENDS+=	sudo-[0-9]*:../../security/sudo
 DEPENDS+=	screen-[0-9]*:../../misc/screen4
 DEPENDS+=	uim-[0-9]*:../../inputmethod/uim
-DEPENDS+=	uim-qt6-immodule-[0-9]*:../../inputmethod/uim-qt6-immodule
 #DEPENDS+=	fcitx5-skk-[0-9]*:../../inputmethod/fcitx5-skk
 DEPENDS+=	mlterm-[0-9]*:../../x11/mlterm
 DEPENDS+=	autocutsel-[0-9]*:../../x11/autocutsel
