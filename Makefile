@@ -109,8 +109,18 @@ DEPENDS+=	pavucontrol-[0-9]*:../../audio/pavucontrol
 DEPENDS+=	${PYPKGPREFIX}-sympy-[0-9]*:../../math/py-sympy
 DEPENDS+=	foliate-[0-9]*:../../print/foliate
 DEPENDS+=	duckdb-[0-9]*:../../databases/duckdb
+DEPENDS+=	${PYPKGPREFIX}-duckdb-[0-9]*:../../databases/py-duckdb
 DEPENDS+=	nkf-[0-9]*:../../converters/nkf
+DEPENDS+=	kmymoney-[0-9]*:../../finance/kmymoney
+DEPENDS+=	tex-jlreq-[0-9]*:../../print/tex-jlreq
 DEPENDS+=	${RUBY_PKGPREFIX}-jekyll-[0-9]*:../../www/ruby-jekyll
+DEPENDS+=	${RUBY_PKGPREFIX}-jekyll-paginate-[0-9]*:../../www/ruby-jekyll-paginate
+DEPENDS+=	${RUBY_PKGPREFIX}-pygments.rb-[0-9]*:../../www/ruby-pygments.rb
+DEPENDS+=	${PYPKGPREFIX}-yubikey-manager-[0-9]*:../../security/py-yubikey-manager
+DEPENDS+=	ccid-[0-9]*:../../security/ccid
+DEPENDS+=	openwv-[0-9]*:../../multimedia/openwv
+DEPENDS+=	easytag-[0-9]*:../../audio/easytag
+DEPENDS+=	kid3-[0-9]*:../../audio/kid3
 
 META_PACKAGE=	yes
 
